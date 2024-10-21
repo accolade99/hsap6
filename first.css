@@ -41,7 +41,7 @@
     width: 100%;
     text-align: center;
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
-    line-height: 2em;
+    line-height: 1em;
     outline: none;
     animation: animate 5s linear infinite;
     
