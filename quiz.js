@@ -81,29 +81,34 @@ function Quiz(questions) {
   // Create questions
   var questions = [
     new Question(
-      "Which planet has the most moons?",
-      ["Jupiter", "Uranus", "Saturn", "Mars"],
-      "Saturn"
+      "The part of the lever that does the work is the .....",
+      ["pulley", "fulcrum", "load", "effort"],
+      "load"
     ),
     new Question(
-      "What country has won the most World Cups?",
-      ["Brazil", "Argentina", "England", "France"],
-      "Brazil"
+      "What is the square of 16?",
+      ["4", "25", "200", "256"],
+      "256"
     ),
     new Question(
-      "How many bones are in the human ear?",
-      ["8", "14", "5", "3"],
-      "3"
+      "The movement of the earth round the sun is called .....",
+      ["rotation", "revolution", "axix", "solar"],
+      "revolution"
     ),
     new Question(
-      "Which Netflix show had the most streaming views in 2021?",
-      ["The Witcher", "Arcane", "League of Legends", "Squid Game"],
-      "Squid Game"
+      "Christians gather in the church while traditional worshippers gather in the ....",
+      ["mosque", "tent", "shrine", "village"],
+      "Shrine"
     ),
     new Question(
-      "What is the fourth letter in the Greek alphabet?",
-      ["Zeta", "Delta", "Alpha", "Epsilon"],
-      "Delta"
+      "One of the 4 stomachs of a ruminant animal is the ....",
+      ["rumen", "yolk", "womb", "tissue"],
+      "rumen"
+    ),
+      new Question(
+      "Which of these is a vertebrate animal?",
+      ["pidgeon", "snail", "crab", "butterfly"],
+      "pidgeon"
     ),
   ];
   
