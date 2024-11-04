@@ -52,7 +52,7 @@ function Quiz(questions) {
     },
     displayScore: function () {
       var gameOverHTML = "<h1>Game Over</h1>";
-      gameOverHTML += "<h2>Your score is: " + quiz.score + "/5</h2>";
+      gameOverHTML += "<h2>Your score is: " + quiz.score + "/8</h2>";
       this.populateIdWithHTML("quiz", gameOverHTML);
     },
   
@@ -110,6 +110,17 @@ function Quiz(questions) {
       ["pidgeon", "snail", "crab", "butterfly"],
       "pidgeon"
     ),
+	  new Question(
+      "What is 3/5 of 450?",
+      ["27", "90", "270", "18"],
+      "270"
+    ),
+      new Question(
+      "The bone that houses the brain is called ....",
+      ["head", "scul", "cranium", "temple"],
+      "cranium"
+    ),
+      
   ];
   
   // Create quiz
