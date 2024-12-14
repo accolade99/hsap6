@@ -74,9 +74,8 @@ p{
     border-radius: 50px;
 font-size: 40px;
 text-align: center;
-color: transparent;
+color: white;
 text-shadow: 0 0 10px rgb(255, 255, 255);
-animation: glow 1s ease-in-out infinite alternate;
 box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.1);
 
 }
