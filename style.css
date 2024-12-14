@@ -55,11 +55,7 @@ img{
     margin: auto;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-
-   
-    
-    
+    margin-top: 20px;    
 }
 
 p{
@@ -70,6 +66,29 @@ p{
     justify-content: center;
     font-weight: bold;
 }
+
+.greet{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(238, 30, 30);
+    border-radius: 50px;
+font-size: 40px;
+text-align: center;
+color: transparent;
+text-shadow: 0 0 10px rgb(255, 255, 255);
+animation: glow 1s ease-in-out infinite alternate;
+box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.imggreet{
+    padding-top: -5px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 
 @media only screen and (max-width: 600px) {
 h1{font-size: 50px;
