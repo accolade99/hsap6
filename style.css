@@ -88,6 +88,12 @@ box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+audio{
+    display: block;
+    margin: auto;
+    height: 15px;
+    width: 270px;
+}
 
 @media only screen and (max-width: 600px) {
 h1{font-size: 50px;
