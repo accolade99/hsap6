@@ -18,6 +18,7 @@
 } */
 
 .jpg{
+    box-shadow: 3px 2px 3px blue;
 height: 100px;
 width: auto;
 display: block;
